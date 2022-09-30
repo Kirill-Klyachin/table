@@ -1,0 +1,33 @@
+.item {
+  width: 25%;
+  border-left: 4px solid #333;
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:first-child {
+  border-left: none;
+}
+
+.item__sorted {
+  cursor: pointer;
+}
+
+.indicator {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: 10px;
+}
+
+.indicator__down {
+  border-top: 10px solid #398388;
+}
+
+.indicator__up {
+  border-bottom: 10px solid #398388;
+}
